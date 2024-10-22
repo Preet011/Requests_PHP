@@ -1,0 +1,110 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 20px;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	color: #02333f;
+	text-align: center;
+
+	margin-top: 0;
+}
+
+.form-container {
+	background: #fff;
+	border: 1px solid #02333f;
+	border-radius: 5px;
+	padding: 20px;
+	max-width: 600px;
+	margin: 20px auto;
+
+}
+
+.form-container label {
+	font-size: 1.1em;
+	color: #333;
+}
+
+.form-container input[type="text"],
+.form-container textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.form-container input[type="email"],
+.form-container textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.form-container input[type="password"],
+.form-container textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.form-container input[type="submit"] {
+	background: #02333f;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: em;
+	cursor: pointer;
+	box-sizing: border-box;
+
+}
+
+.form-container input[type="submit"]:hover {
+	background: #01422f;
+
+}
+
+
+.result {
+	background: #fff;
+	border: 1px solid #023f2d;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 20px auto;
+	max-width: 600px;
+	box-sizing: border-box;
+
+}
+
+.result p {
+	font-size: 1.2em;
+	color: #333;
+
+}
+
+.confirm {
+	background: #fff;
+	border: 1px solid #023f2d;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 20px auto;
+	max-width: 300px;
+	box-sizing: border-box;
+
+}
+
+.confirm p {
+	font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+	text-align: center;
+	font-size: 1.2em;
+	color: #333;
+
+}
