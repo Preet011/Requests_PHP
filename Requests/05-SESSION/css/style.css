@@ -1,0 +1,118 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #fff;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2 {
+	color: #b22222; /* Rouge foncé */
+	text-align: center;
+}
+
+p {
+	color: #333;
+	font-size: 16px;
+	line-height: 1.6;
+	margin: 20px;
+	padding: 10px;
+	border-left: 5px solid #b22222; /* Bordure rouge */
+	background-color: #f9f9f9;
+}
+
+div.header-img {
+	text-align: center;
+	margin-top: 20px;
+}
+
+div.header-img img {
+	max-width: 150px; /* Taille uniforme du logo */
+	height: auto;
+}
+
+h2 {
+	border-bottom: 2px solid #b22222; /* Ligne sous le titre en rouge */
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	background-color: #b22222; /* Arrière-plan rouge */
+	color: white;
+	padding: 20px;
+	margin: 0;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #b22222; /* Bordure rouge */
+	border-radius: 8px;
+}
+
+a {
+	color: #b22222; /* Liens rouges */
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Style pour l'image dans l'en-tête */
+.header-img {
+	text-align: center;
+	margin: 20px auto;
+}
+
+.header-img img {
+	max-width: 150px;
+	/* Ajustez la largeur maximale de l'image */
+	height: auto;
+}
+
+/* Style pour la section de données de session */
+.session-data {
+	background-color: #f4f4f4;
+	/* Fond légèrement gris pour bien contraster */
+	padding: 10px;
+	border: 1px solid #b22222;
+	/* Bordure rouge pour cohérence */
+	border-radius: 5px;
+	/* Coins arrondis pour un look uniforme */
+	margin-top: 20px;
+	/* Espacement au-dessus de la section */
+	overflow-x: auto;
+	/* Permet le défilement horizontal si nécessaire */
+}
+
+/* Style pour la section de code */
+.code-section {
+	background-color: #f4f4f4;
+	/* Fond légèrement gris pour bien contraster */
+	padding: 10px;
+	border: 1px solid #b22222;
+	/* Bordure rouge pour cohérence */
+	border-radius: 5px;
+	/* Coins arrondis pour un look uniforme */
+	margin-top: 20px;
+	/* Espacement au-dessus de la section */
+	overflow-x: auto;
+	/* Permet le défilement horizontal si nécessaire */
+	white-space: pre;
+	/* Préserve les espaces et les retours à la ligne du code */
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	background-color: #b22222; /* Arrière-plan rouge */
+	color: white;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
