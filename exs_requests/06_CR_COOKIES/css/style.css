@@ -1,0 +1,52 @@
+/* Style de base pour le body */
+body {
+	color: #333; /* Couleur du texte */
+	text-align: center; /* Centrer le texte */
+	padding: 50px; /* Espacement intérieur */
+}
+
+/* Couleurs de fond */
+.red {
+	background-color: red; /* Fond rouge */
+}
+
+.green {
+	background-color: green; /* Fond vert */
+}
+
+.blue {
+	background-color: blue; /* Fond bleu */
+}
+
+.white {
+	background-color: white; /* Fond blanc par défaut */
+}
+
+/* Style pour les liens */
+a {
+	color: #007bff; /* Couleur des liens */
+	text-decoration: none; /* Pas de soulignement */
+}
+
+a:hover {
+	text-decoration: underline; /* Soulignement au survol */
+}
+
+/* Style pour le formulaire */
+form {
+	margin: 20px 0; /* Marge autour du formulaire */
+}
+
+/* Style pour les boutons radio */
+input[type="radio"] {
+	margin: 0 10px; /* Espacement autour des boutons radio */
+}
+
+/* Style pour le titre */
+h1 {
+	font-size: 24px; /* Taille de la police du titre principal */
+}
+
+h2 {
+	font-size: 20px; /* Taille de la police pour le titre secondaire */
+}
