@@ -1,0 +1,118 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f8f9fa;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+
+form {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 300px;
+	max-width: 100%;
+	margin: auto;
+}
+
+h1 {
+	color: #cc0000;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #cc0000;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+	width: calc(100% - 20px);
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #cc0000;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type="radio"] {
+	margin-right: 5px;
+}
+
+.radio-group {
+	margin-bottom: 15px;
+}
+
+.radio-group label {
+	font-weight: normal;
+	display: inline;
+	margin-right: 10px;
+	color: #cc0000;
+}
+
+input[type="submit"] {
+	background-color: #cc0000;
+	color: #fff;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+	width: 100%;
+}
+
+input[type="submit"]:hover {
+	background-color: black;
+}
+
+.message {
+	padding: 10px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+	color: #fff;
+}
+
+.success {
+	background-color: #2ecc71;
+}
+
+.error {
+	background-color: #e74c3c;
+}
+
+/* Pour le tableau HTML */
+table.error-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 20px 0;
+	font-size: 18px;
+	text-align: left;
+}
+
+table.error-table th,
+table.error-table td {
+	padding: 12px 15px;
+	border: 1px solid #ffdddd;
+}
+
+table.error-table th {
+	background-color: #ff6961;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+table.error-table td {
+	background-color: #ffecec;
+	color: #ff0000;
+}
+
+table.error-table tr:hover {
+	background-color: #ffdddd;
+}
